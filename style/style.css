@@ -1,0 +1,151 @@
+:root {
+    --vermelho: #f1212b;
+    --preto: #696969;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/*  BASE  */
+
+body {
+    background: rgb(29, 29, 29);
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    color: white;
+}
+
+header .container {
+    background: rgb(12, 10, 10);
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+
+header .logo  {
+
+    color: rgb(196, 5, 5);
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 40px; 
+}
+
+header nav a {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    text-decoration: none;
+    color: rgb(216, 216, 216);
+    margin-right: 10px;
+    
+}
+
+header nav a:hover {
+    color: #f12020;
+}
+
+.tej {
+    position: absolute;
+    left: 90px;
+    top: 90px;
+}
+
+
+
+.old {
+    color: rgb(201, 5, 5);
+}
+
+/* FILME PRINCIPAL*/
+
+.destaque {
+    font-size: 30px;
+    background-color: #4fd8e8;
+    background-image: linear-gradient(to bottom, transparent, rgba(0,0,0,.8)), url(/img/auto1.jpg);
+    height: 580px;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: start;
+}
+
+.destaque .descricao {
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    color:rgb(253, 253, 253);
+    margin: 4px;
+    padding-top: 130px;
+}
+
+.filmes {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    position: absolute;
+    top: 570px;
+    left: 19px;
+    
+}
+
+.desenho {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    position: absolute;
+    top: 1070px;
+    left: 19px;
+}
+
+.botao {
+    align-items: center;
+    background-color:rgb(231, 230, 231);
+    border: none;
+    color:rgb(5, 5, 5);
+    
+    padding: 15px;
+    margin: 25px;
+    font-size: 15px;
+    border-radius: 5px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+
+    cursor: pointer;
+    transition: .3s ease all;
+}
+
+.botao1 {
+    margin: 20px 50px;
+    position: relative;
+    top: -17%;
+    left: 13%;
+    
+    background-color:rgb(231, 230, 231);
+    border: none;
+    color:rgb(5, 5, 5);
+    
+    padding: 15px;
+    margin: 25px;
+    font-size: 15px;
+    border-radius: 5px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+
+    cursor: pointer;
+    transition: .3s ease all;
+}
+
+.botao:hover {
+    background-color: rgb(5, 5, 5);
+    color: rgb(255, 255, 255);
+}
+
+.botao1:hover {
+    background-color: rgb(5, 5, 5);
+    color: rgb(255, 255, 255);
+}
+
+.box-filme {
+    height: 100%;
+    width: 100%;
+    display: inline-block;
+}
+
+.box-desenhos {
+    height: 100%;
+    width: 100%;
+    display: inline-block;
+}
